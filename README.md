@@ -1,30 +1,23 @@
-# 🧪 Jpcv - Playwright JS - TypeScript
+# 🧪 Jpcv - Playwright API & UI Testing with TypeScript
 
-Automated UI and API testing project using  
+Automated **API** and **UI** testing project built using  
 **Playwright**, **TypeScript**, and **Node.js**.
 
 ---
 
-## 🚀 Technologies Used
+## 🚀 Tech Stack
 
-- TypeScript
-- Playwright
-- Node.js
+- [Playwright](https://playwright.dev/) — For browser and API automation
+- [TypeScript](https://www.typescriptlang.org/) — For static typing
+- [Node.js](https://nodejs.org/) — Runtime environment
+- [DummyJSON API](https://dummyjson.com/docs/products) — Fake API for CRUD operations
 
 ---
 
-## ✅ How to Run the Tests
+## 🧩 API Under Test — DummyJSON
 
-### 1. Install dependencies
+This project uses the **[DummyJSON API](https://dummyjson.com)**
 
-```bash
-npm install
-npm start
+### 🔗 Base URL
 
-npx playwright test
-npx playwright test --ui
-npx playwright test tests/example.spec.ts
-npx playwright show-report
-npx playwright test --debug
-
-```
+https://dummyjson.com
